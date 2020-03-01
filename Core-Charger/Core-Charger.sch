@@ -1,0 +1,578 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L connector:PH-4AW J1
+U 1 1 5E5B3E51
+P 2050 2050
+F 0 "J1" V 1800 2450 60  0000 C CNN
+F 1 "PH-4AW" V 1800 2125 60  0000 C CNN
+F 2 "JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal" H 1800 2550 60  0001 C CNN
+F 3 "https://atta.szlcsc.com/upload/public/pdf/source/20151118/1457707577362.pdf" H 2200 2450 60  0001 C CNN
+F 4 " BOOMELE(博穆精密)" H 1950 1800 50  0001 C CNN "Manufacturer"
+F 5 "PH-4AW" H 1700 2450 50  0001 C CNN "PartNumber"
+F 6 "https://item.szlcsc.com/10944.html" H 2150 2400 50  0001 C CNN "Supplier"
+F 7 "C10401" H 2250 2450 50  0001 C CNN "Sku"
+F 8 "￥0.038065" H 2050 2050 50  0001 C CNN "Price"
+	1    2050 2050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2200 1900 2350 1900
+$Comp
+L powerflag:GND #PWR02
+U 1 1 5E5B4EE2
+P 2450 1900
+F 0 "#PWR02" H 2450 1650 50  0001 C CNN
+F 1 "GND" V 2455 1772 50  0000 R CNN
+F 2 "" H 2450 1900 50  0000 C CNN
+F 3 "" H 2450 1900 50  0000 C CNN
+	1    2450 1900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2200 2000 2425 2000
+Wire Wire Line
+	2200 2100 2425 2100
+Wire Wire Line
+	2200 2200 2425 2200
+Text Label 2425 2000 2    50   ~ 0
+VCC
+$Comp
+L led:19-217-BHC-ZL1M2RY-3T D1
+U 1 1 5E5B58BC
+P 4575 2325
+F 0 "D1" V 4675 2300 60  0000 R CNN
+F 1 "LED-BLUE" H 5200 2275 60  0000 R CNN
+F 2 "LED_0603_1608Metric" H 4575 2475 60  0001 C CNN
+F 3 "https://atta.szlcsc.com/upload/public/pdf/source/20170116/1484561237273.pdf" H 4575 3125 60  0001 C CNN
+F 4 "Everlight" H 4675 2675 50  0001 C CNN "Manufacturer"
+F 5 "19-217/BHC-ZL1M2RY/3T" H 4775 2775 50  0001 C CNN "PartNumber"
+F 6 "https://item.szlcsc.com/73150.html" H 4875 2875 50  0001 C CNN "Supplier"
+F 7 "C72041" H 5125 2675 50  0001 C CNN "Sku"
+	1    4575 2325
+	0    1    1    0   
+$EndComp
+$Comp
+L led:19-217-BHC-ZL1M2RY-3T D3
+U 1 1 5E5B8CAB
+P 4850 2325
+F 0 "D3" V 4950 2300 60  0000 R CNN
+F 1 "LED-BLUE" H 5475 2275 60  0000 R CNN
+F 2 "LED_0603_1608Metric" H 4850 2475 60  0001 C CNN
+F 3 "https://atta.szlcsc.com/upload/public/pdf/source/20170116/1484561237273.pdf" H 4850 3125 60  0001 C CNN
+F 4 "Everlight" H 4950 2675 50  0001 C CNN "Manufacturer"
+F 5 "19-217/BHC-ZL1M2RY/3T" H 5050 2775 50  0001 C CNN "PartNumber"
+F 6 "https://item.szlcsc.com/73150.html" H 5150 2875 50  0001 C CNN "Supplier"
+F 7 "C72041" H 5400 2675 50  0001 C CNN "Sku"
+	1    4850 2325
+	0    1    1    0   
+$EndComp
+$Comp
+L pmic:IP5306 U1
+U 1 1 5E5B9845
+P 5675 1975
+F 0 "U1" H 5675 2390 50  0000 C CNN
+F 1 "IP5306" H 5675 2299 50  0000 C CNN
+F 2 "SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm" H 5425 2575 50  0001 C CNN
+F 3 "https://atta.szlcsc.com/upload/public/pdf/source/20180920/C181692_842C9BF636DF123BB66E91FC1AD6F13F.pdf" H 5275 2275 50  0001 C CNN
+F 4 "INJOINIC(英集芯)" H 5725 2875 50  0001 C CNN "Manufacturer"
+F 5 "IP5306" H 5875 2575 50  0001 C CNN "PartNumber"
+F 6 "https://list.szlcsc.com/catalog/612.html" H 5575 2675 50  0001 C CNN "Supplier"
+F 7 "C181692" H 5625 2775 50  0001 C CNN "Sku"
+	1    5675 1975
+	1    0    0    -1  
+$EndComp
+$Comp
+L powerflag:GND #PWR03
+U 1 1 5E5BA430
+P 5675 2750
+F 0 "#PWR03" H 5675 2500 50  0001 C CNN
+F 1 "GND" H 5680 2577 50  0000 C CNN
+F 2 "" H 5675 2750 50  0000 C CNN
+F 3 "" H 5675 2750 50  0000 C CNN
+	1    5675 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5675 2750 5675 2325
+Wire Wire Line
+	4575 2175 4575 1925
+Wire Wire Line
+	4575 2475 4575 2650
+Wire Wire Line
+	4850 2475 4850 2650
+Connection ~ 4850 2650
+Wire Wire Line
+	5125 2650 5125 2125
+Wire Wire Line
+	5125 2125 5275 2125
+Wire Wire Line
+	4850 2175 4850 2025
+Text Label 4075 1825 0    50   ~ 0
+VCC
+Wire Wire Line
+	6075 1925 6400 1925
+Text Label 6400 1825 2    50   ~ 0
+VOUT
+$Comp
+L inductor:YSPI0420-1R0M L1
+U 1 1 5E5C2BB3
+P 6650 1925
+F 0 "L1" H 6450 1975 60  0000 C CNN
+F 1 "YSPI0420-1R0M" H 6950 2050 60  0000 C CNN
+F 2 "L_Bourns-SRN4018" H 6650 1775 60  0001 C CNN
+F 3 "https://atta.szlcsc.com/upload/public/pdf/source/20181218/C351087_A5D14E9C3BE9C1309F241EC6997F4E78.pdf" H 6650 1875 60  0001 C CNN
+F 4 "YJYCOIN(益嘉源)" H 6650 1975 50  0001 C CNN "Manufacturer"
+F 5 "YSPI0420-1R0M" H 6750 2075 50  0001 C CNN "PartNumber"
+F 6 "https://item.szlcsc.com/178606.html" H 6850 2175 50  0001 C CNN "Supplier"
+F 7 "C351087" H 6950 2275 50  0001 C CNN "Sku"
+	1    6650 1925
+	1    0    0    -1  
+$EndComp
+$Comp
+L resistor:0805W8F500LT5E R5
+U 1 1 5E5C40ED
+P 6975 2125
+F 0 "R5" V 6947 2180 60  0000 L CNN
+F 1 "0.5" V 7053 2180 60  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 7975 2425 60  0001 C CNN
+F 3 "https://atta.szlcsc.com/upload/public/pdf/source/20170920/C28319_1505895239483981196.pdf" H 6725 2775 60  0001 C CNN
+F 4 "UniOhm" H 6975 2325 50  0001 C CNN "Manufacturer"
+F 5 "0805W8F500LT5E" H 7075 2425 50  0001 C CNN "PartNumber"
+F 6 "https://item.szlcsc.com/29070.html" H 7175 2525 50  0001 C CNN "Supplier"
+F 7 "C28319" H 6625 2625 50  0001 C CNN "Sku"
+F 8 "￥0.017735" H 6975 2575 50  0001 C CNN "Price"
+	1    6975 2125
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6900 1925 6975 1925
+Wire Wire Line
+	6975 1925 6975 1975
+$Comp
+L capacitor:CL21A226MAQNNNE C4
+U 1 1 5E5C51CE
+P 6975 2575
+F 0 "C4" V 6897 2655 60  0000 L CNN
+F 1 "22uF" V 7003 2655 60  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6875 2175 60  0001 C CNN
+F 3 "https://atta.szlcsc.com/upload/public/pdf/source/20160103/1457707727161.pdf" H 6925 2075 60  0001 C CNN
+F 4 "SAMSUNG(三星)" H 7575 2175 50  0001 C CNN "Manufacturer"
+F 5 "CL21A226MAQNNNE" H 7125 2275 50  0001 C CNN "PartNumber"
+F 6 "https://item.szlcsc.com/46786.html" H 7225 2375 50  0001 C CNN "Supplier"
+F 7 "C45783" H 6975 2475 50  0001 C CNN "Sku"
+F 8 "￥0.258629" H 7075 2825 50  0001 C CNN "Price"
+	1    6975 2575
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6675 2025 6675 2175
+Wire Wire Line
+	6675 2375 6975 2375
+Wire Wire Line
+	6975 2375 6975 2325
+Wire Wire Line
+	6075 2025 6675 2025
+Wire Wire Line
+	6975 2375 6975 2425
+Connection ~ 6975 2375
+Connection ~ 6975 1925
+$Comp
+L capacitor:CL21A226MAQNNNE C5
+U 1 1 5E5C6A58
+P 7300 2375
+F 0 "C5" V 7222 2455 60  0000 L CNN
+F 1 "22uF" H 7328 2455 60  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7200 1975 60  0001 C CNN
+F 3 "https://atta.szlcsc.com/upload/public/pdf/source/20160103/1457707727161.pdf" H 7250 1875 60  0001 C CNN
+F 4 "SAMSUNG(三星)" H 7900 1975 50  0001 C CNN "Manufacturer"
+F 5 "CL21A226MAQNNNE" H 7450 2075 50  0001 C CNN "PartNumber"
+F 6 "https://item.szlcsc.com/46786.html" H 7550 2175 50  0001 C CNN "Supplier"
+F 7 "C45783" H 7300 2275 50  0001 C CNN "Sku"
+F 8 "￥0.258629" H 7400 2625 50  0001 C CNN "Price"
+	1    7300 2375
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7300 2225 7300 1925
+Wire Wire Line
+	6975 1925 7300 1925
+Wire Wire Line
+	6975 2675 6975 2725
+Wire Wire Line
+	6975 2725 7300 2725
+Wire Wire Line
+	7300 2725 7300 2475
+$Comp
+L powerflag:GND #PWR06
+U 1 1 5E5C8848
+P 6975 2775
+F 0 "#PWR06" H 6975 2525 50  0001 C CNN
+F 1 "GND" H 6980 2602 50  0000 C CNN
+F 2 "" H 6975 2775 50  0000 C CNN
+F 3 "" H 6975 2775 50  0000 C CNN
+	1    6975 2775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6975 2725 6975 2775
+Connection ~ 6975 2725
+$Comp
+L resistor:0402WGF1002TCE R4
+U 1 1 5E5CBFD3
+P 6350 2325
+F 0 "R4" V 6322 2380 60  0000 L CNN
+F 1 "10k" V 6428 2380 60  0000 L CNN
+F 2 "R_0402_1005Metric" H 7350 2625 60  0001 C CNN
+F 3 "https://atta.szlcsc.com/upload/public/pdf/source/20170920/C25744_1505901522148983320.pdf" H 6600 2975 60  0001 C CNN
+F 4 "UniOhm" H 6350 2525 50  0001 C CNN "Manufacturer"
+F 5 "0402WGF1002TCE" H 6450 2625 50  0001 C CNN "PartNumber"
+F 6 "https://item.szlcsc.com/26487.html" H 6550 2725 50  0001 C CNN "Supplier"
+F 7 "C25744" H 6000 2825 50  0001 C CNN "Sku"
+F 8 "￥0.00318" H 6700 2525 50  0001 C CNN "Price"
+	1    6350 2325
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6350 2175 6350 2125
+Wire Wire Line
+	6350 2125 6075 2125
+$Comp
+L connector:Header_1x2 J3
+U 1 1 5E5CDBFB
+P 6075 2775
+F 0 "J3" V 6414 2718 60  0000 C CNN
+F 1 "DNP" V 6308 2718 60  0000 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical" H 5975 2875 60  0001 C CNN
+F 3 "" H 6075 2775 60  0001 C CNN
+	1    6075 2775
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6225 2675 6350 2675
+Wire Wire Line
+	6350 2675 6350 2575
+Wire Wire Line
+	6225 2775 6350 2775
+Wire Wire Line
+	6350 2775 6350 2875
+$Comp
+L powerflag:GND #PWR04
+U 1 1 5E5CFAE0
+P 6350 2925
+F 0 "#PWR04" H 6350 2675 50  0001 C CNN
+F 1 "GND" H 6355 2752 50  0000 C CNN
+F 2 "" H 6350 2925 50  0000 C CNN
+F 3 "" H 6350 2925 50  0000 C CNN
+	1    6350 2925
+	1    0    0    -1  
+$EndComp
+$Comp
+L capacitor:0402B104K500NT C3
+U 1 1 5E5D0195
+P 6475 2750
+F 0 "C3" V 6397 2830 60  0000 L CNN
+F 1 "100nF" V 6503 2830 60  0000 L CNN
+F 2 "C_0402_1005Metric" H 6375 2350 60  0001 C CNN
+F 3 "https://atta.szlcsc.com/upload/public/pdf/source/20170923/C110251_1506149246168988310.pdf" H 6425 2250 60  0001 C CNN
+F 4 "Fenghua" H 7075 2350 50  0001 C CNN "Manufacturer"
+F 5 "0402B104K500NT" H 6625 2450 50  0001 C CNN "PartNumber"
+F 6 "https://item.szlcsc.com/111473.html" H 6725 2550 50  0001 C CNN "Supplier"
+F 7 "C110251" H 6475 2650 50  0001 C CNN "Sku"
+F 8 "￥0.057568" H 6575 2850 50  0001 C CNN "Price"
+	1    6475 2750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6350 2575 6475 2575
+Wire Wire Line
+	6475 2575 6475 2600
+Connection ~ 6350 2575
+Wire Wire Line
+	6350 2575 6350 2525
+Wire Wire Line
+	6350 2875 6475 2875
+Wire Wire Line
+	6475 2875 6475 2850
+Connection ~ 6350 2875
+Wire Wire Line
+	6350 2875 6350 2925
+Text Label 7300 1925 2    50   ~ 0
+BAT
+Text Label 2425 2200 2    50   ~ 0
+CTRL
+Text Label 2425 2100 2    50   ~ 0
+VOUT
+$Comp
+L capacitor:CL21A226MAQNNNE C6
+U 1 1 5E5D3AC6
+P 7675 2375
+F 0 "C6" V 7597 2455 60  0000 L CNN
+F 1 "22uF" H 7703 2455 60  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7575 1975 60  0001 C CNN
+F 3 "https://atta.szlcsc.com/upload/public/pdf/source/20160103/1457707727161.pdf" H 7625 1875 60  0001 C CNN
+F 4 "SAMSUNG(三星)" H 8275 1975 50  0001 C CNN "Manufacturer"
+F 5 "CL21A226MAQNNNE" H 7825 2075 50  0001 C CNN "PartNumber"
+F 6 "https://item.szlcsc.com/46786.html" H 7925 2175 50  0001 C CNN "Supplier"
+F 7 "C45783" H 7675 2275 50  0001 C CNN "Sku"
+F 8 "￥0.258629" H 7775 2625 50  0001 C CNN "Price"
+	1    7675 2375
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7675 1825 7675 2225
+Wire Wire Line
+	6075 1825 7675 1825
+Wire Wire Line
+	7300 2725 7675 2725
+Wire Wire Line
+	7675 2725 7675 2475
+Connection ~ 7300 2725
+$Comp
+L capacitor:CL21A226MAQNNNE C7
+U 1 1 5E5D5878
+P 7925 2375
+F 0 "C7" V 7847 2455 60  0000 L CNN
+F 1 "22uF" H 7953 2455 60  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7825 1975 60  0001 C CNN
+F 3 "https://atta.szlcsc.com/upload/public/pdf/source/20160103/1457707727161.pdf" H 7875 1875 60  0001 C CNN
+F 4 "SAMSUNG(三星)" H 8525 1975 50  0001 C CNN "Manufacturer"
+F 5 "CL21A226MAQNNNE" H 8075 2075 50  0001 C CNN "PartNumber"
+F 6 "https://item.szlcsc.com/46786.html" H 8175 2175 50  0001 C CNN "Supplier"
+F 7 "C45783" H 7925 2275 50  0001 C CNN "Sku"
+F 8 "￥0.258629" H 8025 2625 50  0001 C CNN "Price"
+	1    7925 2375
+	0    1    1    0   
+$EndComp
+$Comp
+L capacitor:CL21A226MAQNNNE C8
+U 1 1 5E5D5AA9
+P 3750 2350
+F 0 "C8" V 3672 2430 60  0000 L CNN
+F 1 "22uF" H 3778 2430 60  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3650 1950 60  0001 C CNN
+F 3 "https://atta.szlcsc.com/upload/public/pdf/source/20160103/1457707727161.pdf" H 3700 1850 60  0001 C CNN
+F 4 "SAMSUNG(三星)" H 4350 1950 50  0001 C CNN "Manufacturer"
+F 5 "CL21A226MAQNNNE" H 3900 2050 50  0001 C CNN "PartNumber"
+F 6 "https://item.szlcsc.com/46786.html" H 4000 2150 50  0001 C CNN "Supplier"
+F 7 "C45783" H 3750 2250 50  0001 C CNN "Sku"
+F 8 "￥0.258629" H 3850 2600 50  0001 C CNN "Price"
+	1    3750 2350
+	0    1    1    0   
+$EndComp
+Connection ~ 7675 1825
+Wire Wire Line
+	7925 1825 7925 2225
+Wire Wire Line
+	7925 1825 7675 1825
+Wire Wire Line
+	7675 2725 7925 2725
+Connection ~ 7675 2725
+Wire Wire Line
+	7925 2475 7925 2725
+$Comp
+L connector:PH-2AW环保 J2
+U 1 1 5E5DC8AA
+P 2050 2625
+F 0 "J2" V 2103 2497 60  0000 R CNN
+F 1 "PH-2AW环保" V 1900 3000 60  0000 R CNN
+F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 1800 3125 60  0001 C CNN
+F 3 "https://atta.szlcsc.com/upload/public/pdf/source/20151118/1457707578512.pdf" H 2200 3025 60  0001 C CNN
+F 4 "BOOMELE(博穆精密)" H 2050 2375 50  0001 C CNN "Manufacturer"
+F 5 "PH-2AW环保" H 1700 3025 50  0001 C CNN "PartNumber"
+F 6 "https://item.szlcsc.com/17649.html" H 2150 2975 50  0001 C CNN "Supplier"
+F 7 "C16965" H 2250 3025 50  0001 C CNN "Sku"
+F 8 "￥0.017677" H 2050 2625 50  0001 C CNN "Price"
+	1    2050 2625
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2200 2675 2375 2675
+Wire Wire Line
+	2200 2575 2375 2575
+Text Label 2375 2675 2    50   ~ 0
+BAT
+$Comp
+L powerflag:GND #PWR01
+U 1 1 5E5E009B
+P 2375 2575
+F 0 "#PWR01" H 2375 2325 50  0001 C CNN
+F 1 "GND" V 2380 2447 50  0000 R CNN
+F 2 "" H 2375 2575 50  0000 C CNN
+F 3 "" H 2375 2575 50  0000 C CNN
+	1    2375 2575
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3750 1825 3750 2200
+Wire Wire Line
+	3750 1825 5100 1825
+Wire Wire Line
+	3750 2450 3750 2650
+Wire Wire Line
+	6475 2575 6675 2575
+Connection ~ 6475 2575
+Text Label 6675 2575 2    50   ~ 0
+EN
+$Comp
+L resistor:0402WGF1001TCE R2
+U 1 1 5E5F09E8
+P 5975 3425
+F 0 "R2" H 6000 3639 60  0000 C CNN
+F 1 "1k" H 6000 3533 60  0000 C CNN
+F 2 "R_0402_1005Metric" H 6975 3725 60  0001 C CNN
+F 3 "https://atta.szlcsc.com/upload/public/pdf/source/20180314/F614A0AEE69F33CBFC7409D8D3158E8B.pdf" H 5725 4075 60  0001 C CNN
+F 4 "UniOhm" H 5975 3625 50  0001 C CNN "Manufacturer"
+F 5 "0402WGF1001TCE" H 6075 3725 50  0001 C CNN "PartNumber"
+F 6 "https://item.szlcsc.com/12256.html" H 6175 3825 50  0001 C CNN "Supplier"
+F 7 "C11702" H 5625 3925 50  0001 C CNN "Sku"
+F 8 "￥0.003411" H 5975 3425 50  0001 C CNN "Price"
+	1    5975 3425
+	1    0    0    -1  
+$EndComp
+$Comp
+L resistor:0402WGF1002TCE R3
+U 1 1 5E5F1422
+P 6250 3675
+F 0 "R3" V 6222 3730 60  0000 L CNN
+F 1 "10k" V 6328 3730 60  0000 L CNN
+F 2 "R_0402_1005Metric" H 7250 3975 60  0001 C CNN
+F 3 "https://atta.szlcsc.com/upload/public/pdf/source/20170920/C25744_1505901522148983320.pdf" H 6500 4325 60  0001 C CNN
+F 4 "UniOhm" H 6250 3875 50  0001 C CNN "Manufacturer"
+F 5 "0402WGF1002TCE" H 6350 3975 50  0001 C CNN "PartNumber"
+F 6 "https://item.szlcsc.com/26487.html" H 6450 4075 50  0001 C CNN "Supplier"
+F 7 "C25744" H 5900 4175 50  0001 C CNN "Sku"
+F 8 "￥0.00318" H 6600 3875 50  0001 C CNN "Price"
+	1    6250 3675
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5825 3425 5625 3425
+Wire Wire Line
+	6175 3425 6250 3425
+Wire Wire Line
+	6250 3425 6250 3525
+$Comp
+L mosfet:CJ2102 Q1
+U 1 1 5E5F50DA
+P 6575 3425
+F 0 "Q1" H 6775 3478 60  0000 L CNN
+F 1 "CJ2102" H 6775 3372 60  0000 L CNN
+F 2 "SOT-323_SC-70" H 7125 3575 60  0001 C CNN
+F 3 "https://atta.szlcsc.com/upload/public/pdf/source/20150504/1457707282836.pdf" H 8375 3900 60  0001 C CNN
+F 4 "JCET" H 7000 3675 50  0001 C CNN "Manufacturer"
+F 5 "CJ2102" H 7100 3775 50  0001 C CNN "PartNumber"
+F 6 "https://item.szlcsc.com/48943.html" H 7275 3675 50  0001 C CNN "Supplier"
+F 7 "C47937" H 7375 3775 50  0001 C CNN "Sku"
+F 8 "￥0.175064" H 6575 3425 50  0001 C CNN "Price"
+	1    6575 3425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6475 3425 6250 3425
+Connection ~ 6250 3425
+Wire Wire Line
+	6250 3875 6250 3950
+Wire Wire Line
+	6250 3950 6675 3950
+Wire Wire Line
+	6675 3950 6675 3625
+Wire Wire Line
+	6675 3950 6675 4000
+Connection ~ 6675 3950
+$Comp
+L powerflag:GND #PWR05
+U 1 1 5E5FBC8C
+P 6675 4000
+F 0 "#PWR05" H 6675 3750 50  0001 C CNN
+F 1 "GND" H 6680 3827 50  0000 C CNN
+F 2 "" H 6675 4000 50  0000 C CNN
+F 3 "" H 6675 4000 50  0000 C CNN
+	1    6675 4000
+	1    0    0    -1  
+$EndComp
+Text Label 2425 2100 2    50   ~ 0
+VOUT
+Text Label 5625 3425 0    50   ~ 0
+CTRL
+Wire Wire Line
+	6675 2575 6675 3225
+$Comp
+L powerflag:PWR_FLAG #FLG0101
+U 1 1 5E61B7E8
+P 2350 1700
+F 0 "#FLG0101" H 2350 1775 50  0001 C CNN
+F 1 "PWR_FLAG" H 2350 1873 50  0000 C CNN
+F 2 "" H 2350 1700 50  0000 C CNN
+F 3 "" H 2350 1700 50  0000 C CNN
+	1    2350 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 1700 2350 1900
+Connection ~ 2350 1900
+Wire Wire Line
+	2350 1900 2450 1900
+$Comp
+L powerflag:PWR_FLAG #FLG0102
+U 1 1 5E61D604
+P 6675 2175
+F 0 "#FLG0102" H 6675 2250 50  0001 C CNN
+F 1 "PWR_FLAG" V 6575 1975 50  0000 L CNN
+F 2 "" H 6675 2175 50  0000 C CNN
+F 3 "" H 6675 2175 50  0000 C CNN
+	1    6675 2175
+	0    1    1    0   
+$EndComp
+Connection ~ 6675 2175
+Wire Wire Line
+	6675 2175 6675 2375
+$Comp
+L powerflag:PWR_FLAG #FLG0103
+U 1 1 5E61F50D
+P 5100 1725
+F 0 "#FLG0103" H 5100 1800 50  0001 C CNN
+F 1 "PWR_FLAG" H 5100 1898 50  0000 C CNN
+F 2 "" H 5100 1725 50  0000 C CNN
+F 3 "" H 5100 1725 50  0000 C CNN
+	1    5100 1725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 1725 5100 1825
+Connection ~ 5100 1825
+Wire Wire Line
+	5100 1825 5275 1825
+$Comp
+L powerflag:GND #PWR0101
+U 1 1 5E647C14
+P 3750 2650
+F 0 "#PWR0101" H 3750 2400 50  0001 C CNN
+F 1 "GND" V 3755 2522 50  0000 R CNN
+F 2 "" H 3750 2650 50  0000 C CNN
+F 3 "" H 3750 2650 50  0000 C CNN
+	1    3750 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4575 2650 4850 2650
+Wire Wire Line
+	4575 1925 5275 1925
+Wire Wire Line
+	4850 2650 5125 2650
+Wire Wire Line
+	4850 2025 5275 2025
+$EndSCHEMATC
